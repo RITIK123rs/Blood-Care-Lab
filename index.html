@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Care Lab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <span onclick="goUpBtn()" class="goUp position-fixed z-3 "><img src="img/arrow.png" alt="" width="30px" ></span>
+    <header data-aos="fade-right" data-aos-delay="100" class="d-flex justify-content-evenly fs-3 ">
+        <span class="text-white fw-bold ">
+            <img src="img/call.png" width="30px" class="callIcon mb-1" alt="">
+            +91 9780028787
+        </span>
+        <span class="text-white fw-bold">
+            <img src="img/mail.png" width="37px" class="mailIcon mb-md-1 mt-lg-1 mb-lg-2" alt="">
+            bloodcarelab1313@gmail.com
+        </span>
+        <span class="text-white fw-bold">
+            <i class="fa-regular fa-clock"></i>
+            Mon-Sun: 7:00 AM - 8:00 PM
+        </span>
+    </header>
+    <nav class="navbar container navbar-expand-lg  bg-white  m-auto  px-md-3 mt-1 mt-lg-2  d-flex justify-content-between position-sticky  z-3"
+        style="border-radius: 40px;">
+        <div class="logoBox d-flex ">
+            <img class="mt-lg-1 logo " src="img/microscope.png" width="60px" height="50px" alt="">
+            <div class="logoHeading fw-bold">
+                <div class="logName1 h-lg-25">BLOOD CARE</div>
+                <div class="logName2  h-lg-25">LABORATORY</div>
+            </div>
+        </div>
+        <button class="navbar-toggler mt-1 py-1 mb-3 me-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse bg-white " id="navbarNav">
+            <ul class="ms-2 ms-lg-auto navbar-nav me-lg-4 justify-content-between gap-lg-4 fw-bold fs-5">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#about">About Us </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#test">Tests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contact">Contact Us</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="container1 container position-relative mt-4">
+
+        <div class="row gap-5 gap-lg-0">
+            <div class="col-lg-5 mt-3" data-aos="fade-right">
+                <h1 class="head1 ps-lg-2 fw-bold" data-aos="fade-right" data-aos-delay="500">Blood Care</h1>
+                <h1 class="head2 ps-lg-3 fw-bold text-white" data-aos="fade-down" data-aos-delay="800">Laboratory</h1>
+                <p class="fw-semibold" data-aos="fade-down" data-aos-delay="1000">With our advanced blood care services,
+                    you receive accurate testing, expert analysis, and compassionate care—ensuring you get the precise
+                    results and support you deserve.</p>
+                <button class="px-4 py-3 fs-4 fw-bold rounded-pill" data-aos="fade-right">Book Appointment</button>
+            </div>
+
+            <div class="col-lg-7" data-aos="fade-left">
+                <img src="img/main1.png" alt="" class="w-100 h-100">
+            </div>
+        </div>
+    </div>
+    <div class="d-flex container2 mt-2 container-fluid text-white overflow-hidden position-relative mt-4">
+        <ul class="list1 d-flex text-nowrap p-0 fs-1 gap-4" type="none">
+            <li>Fast and Precise Reports &nbsp•</li>
+            <li>Affordable Health Checkups &nbsp•</li>
+            <li>Advanced Lab Technology &nbsp•</li>
+            <li>Home Sample Collection &nbsp•</li>
+            <li>Accurate Results &nbsp•</li>
+        </ul>
+        <ul class="list2 d-flex text-nowrap p-0 fs-1 gap-4" type="none">
+            <li>Fast and Precise Reports &nbsp•</li>
+            <li>Affordable Health Checkups &nbsp•</li>
+            <li>Advanced Lab Technology &nbsp•</li>
+            <li>Home Sample Collection &nbsp•</li>
+            <li>Accurate Results &nbsp•</li>
+        </ul>
+    </div>
+    <div class="container3 mt-1 d-lg-flex container-lg" id="about">
+        <div class="row">
+            <div class="col-lg-6" data-aos="zoom-in-right">
+                <img class="w-lg-50 w-100 h-100 me-lg-3" src="img/Screenshot 2025-08-12 114857.png" alt="">
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="500">
+                <div class="w-lg-50 w-100 mt-4 mt-lg-5 aboutUs ">
+                    <h1 class="heading fw-bold mb-3 fs-1">About Blood Care Laboratory</h1>
+                    <p class="paragraph mb-3 ">With over 15 years of dedicated experience, Blood Care Clinical
+                        Laboratory is proud to
+                        serve the community by delivering reliable, accurate, and timely medical testing services you
+                        can depend
+                        on. <br>
+                        Our state-of-the-art facility is equipped with the latest diagnostic technology and staffed by
+                        certified
+                        laboratory professionals committed to upholding the highest standards of quality and patient
+                        care.</p>
+                    <div class="tickBox d-flex flex-wrap justify-content-evenly">
+                        <div class="fw-bold fs-5 d-flex">
+                            <img class="me-2" src="img/double-tick.png" width="30px" height="35px" alt="">
+                            <div>
+                                Cutting-Edge Technology
+                            </div>
+                        </div>
+                        <div class="fw-bold fs-5 d-flex">
+                            <img class="me-2" src="img/double-tick.png" width="30px" height="35px" alt="">
+                            <div>
+                                Certified Experts
+                            </div>
+                        </div>
+                        <div class="fw-bold fs-5 d-flex">
+                            <img class="me-2" src="img/double-tick.png" width="30px" height="35px" alt="">
+                            <div>
+                                Quick, Accurate Results
+                            </div>
+                        </div>
+                        <div class="fw-bold fs-5 d-flex">
+                            <img class="me-2" src="img/double-tick.png" width="30px" height="35px" alt="">
+                            <div>
+                                Patient-Centered Care
+                            </div>
+                        </div>
+                        <div class="fw-bold fs-5 d-flex">
+                            <img class="me-2" src="img/double-tick.png" width="30px" height="35px" alt="">
+                            <div>
+                                Wide Test Range
+                            </div>
+                        </div>
+                        <div class="fw-bold fs-5 d-flex">
+                            <img class="me-2" src="img/double-tick.png" width="30px" height="35px" alt="">
+                            <div>
+                                Quality & Safety Focused
+                            </div>
+                        </div>
+                    </div>
+                    <p class="paragraph ">At Blood Care Clinical Laboratory, your health is our priority. We combine
+                        cutting-edge science with personalized care to support your well-being every step of the way.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container4 container-md py-3 mt-3 d-flex justify-content-between justify-content-lg-evenly align-items-center text-white rounded-4 "
+        data-aos="flip-up">
+        <div class="w-lg-25 d-flex justify-content-between align-items-center flex-column ">
+            <h1 class="num fw-bold"><span>1,00,00</span>+</h1>
+            <h5 class="mt-lg-2 fw-bold">Happy Customers</h5>
+        </div>
+        <div class="w-lg-25 d-flex justify-content-between align-items-center flex-column ">
+            <h1 class="num fw-bold"><span>1,50,000</span>+</h1>
+            <h5 class="mt-lg-2 fw-bold">Tests Conducted</h5>
+        </div>
+        <div class="w-lg-25 d-flex justify-content-between align-items-center flex-column ">
+            <h1 class="num fw-bold"><span>15</span>+</h1>
+            <h5 class="mt-lg-2 fw-bold">Year of Experience</h5>
+        </div>
+    </div>
+    <div class="container5 d-flex flex-column justify-content-center align-items-center my-3 my-md-4"
+        data-aos="fade-down">
+        <h1 class="fw-bold">Our Test Categories</h1>
+        <p class="fw-semibold">Comprehensive diagnostic testing across all major health areas</p>
+    </div>
+    <div id="test" class="container6 position-relative container d-flex px-4" data-aos="fade-right">
+        <button onclick="left6()" class="z-2 left position-absolute  start-0 top-50 "><img class="h-100 w-100"
+                src="img/back.png" alt=""></button>
+        <div class="scroll d-flex justify-content-between align-items-center overflow-x-hidden w-100">
+            <div class="card rounded-4 ">
+                <img class="ms-4 mt-1" src="img/blood-test (2).png" width="80%" height="60%" alt="">
+                <div class="p-3 pt-1 ms-1 card-body">
+                    <h2 class="fw-bold card-title">Health Care Checkup</h2>
+                    <p class="card-text fw-medium">Complete blood analysis for comprehensive health assessment</p>
+                </div>
+            </div>
+            <div class="card rounded-4 ">
+                <img class="ms-4 mt-1" src="img/blood-test (2).png" width="80%" height="60%" alt="">
+                <div class="p-3 pt-1 ms-1 card-body">
+                    <h2 class="fw-bold card-title">Vitamin Profile</h2>
+                    <p class="card-text fw-medium">Complete blood analysis for comprehensive health assessment</p>
+                </div>
+            </div>
+            <div class="card rounded-4 ">
+                <img class="ms-4 mt-1" src="img/blood-test (2).png" width="80%" height="60%" alt="">
+                <div class="p-3 pt-1 ms-1 card-body">
+                    <h2 class="fw-bold card-title">Hormones profile</h2>
+                    <p class="card-text fw-medium">Complete blood analysis for comprehensive health assessment</p>
+                </div>
+            </div>
+            <div class="card rounded-4 ">
+                <img class="ms-4 mt-1" src="img/blood-test (2).png" width="80%" height="60%" alt="">
+                <div class="p-3 pt-1 ms-1 card-body">
+                    <h2 class="fw-bold card-title">PCOD/PCOS</h2>
+                    <p class="card-text fw-medium">Complete blood analysis for comprehensive health assessment</p>
+                </div>
+            </div>
+            <div class="card rounded-4 ">
+                <img class="ms-4 mt-1" src="img/blood-test (2).png" width="80%" height="60%" alt="">
+                <div class="p-3 pt-1 ms-1 card-body">
+                    <h2 class="fw-bold card-title">Healthy Bones Test</h2>
+                    <p class="card-text fw-medium">Complete blood analysis for comprehensive health assessment</p>
+                </div>
+            </div>
+            <div class="card rounded-4 ">
+                <img class="ms-4 mt-1" src="img/blood-test (2).png" width="80%" height="60%" alt="">
+                <div class="p-3 pt-1 ms-1 card-body">
+                    <h2 class="fw-bold card-title">Healthy Bones Test</h2>
+                    <p class="card-text fw-medium">Complete blood analysis for comprehensive health assessment</p>
+                </div>
+            </div>
+            <div class="card rounded-4 ">
+                <img class="ms-4 mt-1" src="img/blood-test (2).png" width="80%" height="60%" alt="">
+                <div class="p-3 pt-1 ms-1 card-body">
+                    <h2 class="fw-bold card-title">Healthy Bones Test</h2>
+                    <p class="card-text fw-medium">Complete blood analysis for comprehensive health assessment</p>
+                </div>
+            </div>
+        </div>
+        <button onclick="right6()" class="z-2 right position-absolute end-0 top-50"><img class="h-100 w-100"
+                src="img/fast-forward-double-right-arrows-symbol.png" alt=""></button>
+
+    </div>
+    <div class="container5 d-flex flex-column justify-content-center align-items-center my-3 my-md-4 "
+        style="margin-top: 100px !important;" data-aos="fade-down">
+        <h1 class="fw-bold">Health Risk</h1>
+        <p class="fw-semibold text-center w-lg-50">Monitor your health and track your well-being with specialized tests
+            designed to identify major health risks.</p>
+    </div>
+    <div class="container7 container position-relative" data-aos="fade-left">
+        <button onclick="left7()" class="z-2 left position-absolute  start-0 top-50 "><img class="h-100 w-100"
+                src="img/back.png" alt=""></button>
+        <div class="scroll d-flex justify-content-between align-items-center overflow-x-hidden w-100">
+            <div class="card pt-3">
+                <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+                <div class="card-body ms-1">
+                    <h5 class="card-title fw-bold">Cardiologist1</h5>
+                    <p class="card-text fs-6">We always manage all aspects of the
+                        patient journey, from diary management
+                        and transcription to phone calls.</p>
+                </div>
+            </div>
+            <div class="card pt-3">
+                <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+                <div class="card-body ms-1">
+                    <h5 class="card-title fw-bold">Cardiologist2</h5>
+                    <p class="card-text fs-6">We always manage all aspects of the
+                        patient journey, from diary management
+                        and transcription to phone calls.</p>
+                </div>
+            </div>
+            <div class="card pt-3">
+                <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+                <div class="card-body ms-1">
+                    <h5 class="card-title fw-bold">Cardiologist3</h5>
+                    <p class="card-text fs-6">We always manage all aspects of the
+                        patient journey, from diary management
+                        and transcription to phone calls.</p>
+                </div>
+            </div>
+            <div class="card pt-3">
+                <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+                <div class="card-body ms-1">
+                    <h5 class="card-title fw-bold">Cardiologist4</h5>
+                    <p class="card-text fs-6">We always manage all aspects of the
+                        patient journey, from diary management
+                        and transcription to phone calls.</p>
+                </div>
+            </div>
+            <div class="card pt-3">
+                <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+                <div class="card-body ms-1">
+                    <h5 class="card-title fw-bold">Cardiologist5</h5>
+                    <p class="card-text fs-6">We always manage all aspects of the
+                        patient journey, from diary management
+                        and transcription to phone calls.</p>
+                </div>
+            </div>
+        </div>
+        <button onclick="right7()" class="z-2 right position-absolute end-0 top-50"><img class="h-100 w-100"
+                src="img/fast-forward-double-right-arrows-symbol.png" alt=""></button>
+
+
+    </div>
+    <div class="container5 d-flex flex-column justify-content-center align-items-center my-3 my-md-4"
+        style="margin-top: 140px !important;" data-aos="fade-down">
+        <h1 class="fw-bold">Health Packages</h1>
+        <p class="fw-semibold text-center ">Comprehensive health packages designed for complete wellness screening</p>
+    </div>
+    <div class="container8 container position-relative ">
+        <button onclick="left8()" class="z-2 left position-absolute start-0 top-50 "><img class="h-100 w-100"
+                src="img/back.png" alt=""></button>
+        <div class="scroll d-flex justify-content-between align-items-center overflow-x-hidden px-3 w-100">
+            <div class="rounded-4 d-flex flex-column justify-content-center align-items-center text-center p-4 bg-white"
+                data-aos="zoom-in">
+                <h1 class=" fw-bold">Basic Health <br> Package1</h1>
+                <p class="line1 m-0 fw-semibold fs-5">Essential health Screening for routine Checkups </p>
+                <p class="price1 m-0 fw-bold">&#8377;899 <span
+                        class="price2 fs-4 fw-normal text-decoration-line-through">&#8377;12,000</span></p>
+                <h5>Includes 25 Tests</h5>
+                <h3 class="fw-bold">Key Tests Include:</h3>
+                <div class="text-start points">
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Complete Blood Count (CBC)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Lipid Profile
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Blood Sugar (Fasting)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Liver Function Test
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Kidney Function Test
+                    </div>
+                </div>
+                <button class="w-75 mt-3 p-2 fs-5 fw-bold text-white border-0 rounded-5">Book Now</button>
+            </div>
+            <div class="rounded-4 d-flex flex-column justify-content-center align-items-center text-center p-4 bg-white"
+                data-aos="zoom-in">
+                <h1 class=" fw-bold">Basic Health <br> Package2</h1>
+                <p class="line1 m-0 fw-semibold fs-5">Essential health Screening for routine Checkups </p>
+                <p class="price1 m-0 fw-bold">&#8377;899 <span
+                        class="price2 fs-4 fw-normal text-decoration-line-through">&#8377;12,000</span></p>
+                <h5>Includes 25 Tests</h5>
+                <h3 class="fw-bold">Key Tests Include:</h3>
+                <div class="text-start points">
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Complete Blood Count (CBC)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Lipid Profile
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Blood Sugar (Fasting)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Liver Function Test
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Kidney Function Test
+                    </div>
+                </div>
+                <button class="w-75 mt-3 p-2 fs-5 fw-bold text-white border-0 rounded-5">Book Now</button>
+            </div>
+            <div class="rounded-4 d-flex flex-column justify-content-center align-items-center text-center p-4 bg-white"
+                data-aos="zoom-in">
+                <h1 class=" fw-bold">Basic Health <br> Package3</h1>
+                <p class="line1 m-0 fw-semibold fs-5">Essential health Screening for routine Checkups </p>
+                <p class="price1 m-0 fw-bold">&#8377;899 <span
+                        class="price2 fs-4 fw-normal text-decoration-line-through">&#8377;12,000</span></p>
+                <h5>Includes 25 Tests</h5>
+                <h3 class="fw-bold">Key Tests Include:</h3>
+                <div class="text-start points">
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Complete Blood Count (CBC)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Lipid Profile
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Blood Sugar (Fasting)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Liver Function Test
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Kidney Function Test
+                    </div>
+                </div>
+                <button class="w-75 mt-3 p-2 fs-5 fw-bold text-white border-0 rounded-5">Book Now</button>
+            </div>
+            <div class="rounded-4 d-flex flex-column justify-content-center align-items-center text-center p-4 bg-white"
+                data-aos="zoom-in">
+                <h1 class=" fw-bold">Basic Health <br> Package4</h1>
+                <p class="line1 m-0 fw-semibold fs-5">Essential health Screening for routine Checkups </p>
+                <p class="price1 m-0 fw-bold">&#8377;899 <span
+                        class="price2 fs-4 fw-normal text-decoration-line-through">&#8377;12,000</span></p>
+                <h5>Includes 25 Tests</h5>
+                <h3 class="fw-bold">Key Tests Include:</h3>
+                <div class="text-start points">
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Complete Blood Count (CBC)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Lipid Profile
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Blood Sugar (Fasting)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Liver Function Test
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Kidney Function Test
+                    </div>
+                </div>
+                <button class="w-75 mt-3 p-2 fs-5 fw-bold text-white border-0 rounded-5">Book Now</button>
+            </div>
+            <div class="rounded-4 d-flex flex-column justify-content-center align-items-center text-center p-4 bg-white"
+                data-aos="zoom-in">
+                <h1 class=" fw-bold">Basic Health <br> Package5</h1>
+                <p class="line1 m-0 fw-semibold fs-5">Essential health Screening for routine Checkups </p>
+                <p class="price1 m-0 fw-bold">&#8377;899 <span
+                        class="price2 fs-4 fw-normal text-decoration-line-through">&#8377;12,000</span></p>
+                <h5>Includes 25 Tests</h5>
+                <h3 class="fw-bold">Key Tests Include:</h3>
+                <div class="text-start points">
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Complete Blood Count (CBC)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Lipid Profile
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Blood Sugar (Fasting)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Liver Function Test
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Kidney Function Test
+                    </div>
+                </div>
+                <button class="w-75 mt-3 p-2 fs-5 fw-bold text-white border-0 rounded-5">Book Now</button>
+            </div>
+            <div class="rounded-4 d-flex flex-column justify-content-center align-items-center text-center p-4 bg-white"
+                data-aos="zoom-in">
+                <h1 class=" fw-bold">Basic Health <br> Package6</h1>
+                <p class="line1 m-0 fw-semibold fs-5">Essential health Screening for routine Checkups </p>
+                <p class="price1 m-0 fw-bold">&#8377;899 <span
+                        class="price2 fs-4 fw-normal text-decoration-line-through">&#8377;12,000</span></p>
+                <h5>Includes 25 Tests</h5>
+                <h3 class="fw-bold">Key Tests Include:</h3>
+                <div class="text-start points">
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Complete Blood Count (CBC)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Lipid Profile
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Blood Sugar (Fasting)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Liver Function Test
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Kidney Function Test
+                    </div>
+                </div>
+                <button class="w-75 mt-3 p-2 fs-5 fw-bold text-white border-0 rounded-5">Book Now</button>
+            </div>
+            <div class="rounded-4 d-flex flex-column justify-content-center align-items-center text-center p-4 bg-white "
+                data-aos="zoom-in">
+                <h1 class=" fw-bold">Basic Health <br> Package7</h1>
+                <p class="line1 m-0 fw-semibold fs-5">Essential health Screening for routine Checkups </p>
+                <p class="price1 m-0 fw-bold">&#8377;899 <span
+                        class="price2 fs-4 fw-normal text-decoration-line-through">&#8377;12,000</span></p>
+                <h5>Includes 25 Tests</h5>
+                <h3 class="fw-bold">Key Tests Include:</h3>
+                <div class="text-start points">
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Complete Blood Count (CBC)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Lipid Profile
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Blood Sugar (Fasting)
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Liver Function Test
+                    </div>
+                    <div class="fs-5">
+                        <img src="img/check.png" class="mb-1" alt="" width="35px">
+                        Kidney Function Test
+                    </div>
+                </div>
+                <button class="w-75 mt-3 p-2 fs-5 fw-bold text-white border-0 rounded-5">Book Now</button>
+            </div>
+        </div>
+        <button onclick="right8()" class="z-2 right position-absolute end-0 top-50"><img class="h-100 w-100"
+                src="img/fast-forward-double-right-arrows-symbol.png" alt=""></button>
+    </div>
+    <div class="container5 d-flex flex-column justify-content-center align-items-center my-3 my-md-4 text-center"
+        style="margin-top: 100px !important;" data-aos="fade-down">
+        <h1 class="fw-bold">Our Services</h1>
+        <p class="fw-semibold">Comprehensive laborat services designed to meet all your diagnostic needs</p>
+    </div>
+    <div id="services"
+        class="container9 container d-flex flex-wrap gap-lg-3 justify-content-lg-evenly justify-content-between"
+        data-aos="fade-up">
+        <div class="card pt-3">
+            <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Cardiologist</h5>
+                <p class="card-text fs-6">We always manage all aspects of the
+                    patient journey, from diary management
+                    and transcription to phone calls.</p>
+            </div>
+        </div>
+        <div class="card pt-3">
+            <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Cardiologist</h5>
+                <p class="card-text fs-6">We always manage all aspects of the
+                    patient journey, from diary management
+                    and transcription to phone calls.</p>
+            </div>
+        </div>
+        <div class="card pt-3">
+            <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Cardiologist</h5>
+                <p class="card-text fs-6">We always manage all aspects of the
+                    patient journey, from diary management
+                    and transcription to phone calls.</p>
+            </div>
+        </div>
+        <div class="card pt-3">
+            <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Cardiologist</h5>
+                <p class="card-text fs-6">We always manage all aspects of the
+                    patient journey, from diary management
+                    and transcription to phone calls.</p>
+            </div>
+        </div>
+        <div class="card pt-3">
+            <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Cardiologist</h5>
+                <p class="card-text fs-6">We always manage all aspects of the
+                    patient journey, from diary management
+                    and transcription to phone calls.</p>
+            </div>
+        </div>
+        <div class="card pt-3">
+            <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Cardiologist</h5>
+                <p class="card-text fs-6">We always manage all aspects of the
+                    patient journey, from diary management
+                    and transcription to phone calls.</p>
+            </div>
+        </div>
+        <div class="card pt-3">
+            <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Cardiologist</h5>
+                <p class="card-text fs-6">We always manage all aspects of the
+                    patient journey, from diary management
+                    and transcription to phone calls.</p>
+            </div>
+        </div>
+        <div class="card pt-3">
+            <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Cardiologist</h5>
+                <p class="card-text fs-6">We always manage all aspects of the
+                    patient journey, from diary management
+                    and transcription to phone calls.</p>
+            </div>
+        </div>
+        <div class="card pt-3">
+            <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Cardiologist</h5>
+                <p class="card-text fs-6">We always manage all aspects of the
+                    patient journey, from diary management
+                    and transcription to phone calls.</p>
+            </div>
+        </div>
+        <div class="card pt-3">
+            <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Cardiologist</h5>
+                <p class="card-text fs-6">We always manage all aspects of the
+                    patient journey, from diary management
+                    and transcription to phone calls.</p>
+            </div>
+        </div>
+        <div class="card pt-3">
+            <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Cardiologist</h5>
+                <p class="card-text fs-6">We always manage all aspects of the
+                    patient journey, from diary management
+                    and transcription to phone calls.</p>
+            </div>
+        </div>
+        <div class="card pt-3">
+            <img src="img/heartbeat.png" class="ms-3" alt="..." width="70px">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Cardiologist</h5>
+                <p class="card-text fs-6">We always manage all aspects of the
+                    patient journey, from diary management
+                    and transcription to phone calls.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container10 my-5 container pt-lg-1 w-50 " data-aos="flip-right">
+        <p class="text-center fw-bold">"Your blood tells a story about your health - every heartbeat, every breath,
+            every tomorrow. At Blood Care, we combine advanced technology, expert analysis, and genuine human care to
+            give you answers you can trust, so you can take charge of your future and live life to its fullest."</p>
+    </div>
+    <div class="container11 container-fluid py-2 ">
+        <div class="container5 d-flex flex-column justify-content-center align-items-center my-3 my-md-4 text-center"
+            data-aos="fade-down">
+            <h1 class="fw-bold text-white">Why Choose us?</h1>
+            <p class="fw-semibold text-white">We are committed to providing the highest quality diagnostic services</p>
+        </div>
+        <div class="contentBox container d-flex justify-content-between flex-wrap my-5">
+            <div class="card pt-3 bg-transparent border-0" data-aos="fade-right">
+                <img src="img/protect.png" class="mx-auto" alt="..." width="90px">
+                <div class="card-body text-center text-white">
+                    <h5 class="card-title fw-bold">Reliable & Accurate</h5>
+                    <p class="card-text fs-6">State-of-the-art equipment ensuring precise and
+                        reliable results every time</p>
+                </div>
+            </div>
+            <div class="card pt-3 bg-transparent border-0" data-aos="fade-down">
+                <img src="img/protect.png" class="mx-auto" alt="..." width="90px">
+                <div class="card-body text-center text-white">
+                    <h5 class="card-title fw-bold">Reliable & Accurate</h5>
+                    <p class="card-text fs-6">State-of-the-art equipment ensuring precise and
+                        reliable results every time</p>
+                </div>
+            </div>
+            <div class="card pt-3 bg-transparent border-0" data-aos="fade-left">
+                <img src="img/protect.png" class="mx-auto" alt="..." width="90px">
+                <div class="card-body text-center text-white">
+                    <h5 class="card-title fw-bold">Reliable & Accurate</h5>
+                    <p class="card-text fs-6">State-of-the-art equipment ensuring precise and
+                        reliable results every time</p>
+                </div>
+            </div>
+            <div class="card pt-3 bg-transparent border-0" data-aos="fade-down">
+                <img src="img/protect.png" class="mx-auto" alt="..." width="90px">
+                <div class="card-body text-center text-white">
+                    <h5 class="card-title fw-bold">Reliable & Accurate</h5>
+                    <p class="card-text fs-6">State-of-the-art equipment ensuring precise and
+                        reliable results every time</p>
+                </div>
+            </div>
+            <div class="card pt-3 bg-transparent border-0" data-aos="fade-down">
+                <img src="img/protect.png" class="mx-auto" alt="..." width="90px">
+                <div class="card-body text-center text-white">
+                    <h5 class="card-title fw-bold">Reliable & Accurate</h5>
+                    <p class="card-text fs-6">State-of-the-art equipment ensuring precise and
+                        reliable results every time</p>
+                </div>
+            </div>
+            <div class="card pt-3 bg-transparent border-0" data-aos="fade-down">
+                <img src="img/protect.png" class="mx-auto" alt="..." width="90px">
+                <div class="card-body text-center text-white">
+                    <h5 class="card-title fw-bold">Reliable & Accurate</h5>
+                    <p class="card-text fs-6">State-of-the-art equipment ensuring precise and
+                        reliable results every time</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container5 d-flex flex-column justify-content-center align-items-center my-3 my-md-4 text-center"
+        data-aos="fade-down">
+        <h1 class="fw-bold">What Our Patients Say</h1>
+        <p class="fw-semibold">Read testimonials from our satisfied patients</p>
+    </div>
+    <div id="reviews" class="container12 container d-flex flex-wrap justify-content-between"
+        style="margin-top: 40px !important;">
+        <div class="card mb-3 pt-3" data-aos="zoom-in-right">
+            <div class="card-head d-flex">
+                <img src="img/person1.png" class="card-img-top rounded-circle" width="70px" alt="...">
+                <div class="ms-3 pt-2">
+                    <h5 class="card-title">DILEEP KAUL</h5>
+                    <p class="card-star"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                            aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                            aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+                </div>
+            </div>
+            <div class="card-body">
+                <p class="card-text fw-semibold">One of the best pathalogy tests lab in tricity. Home collection
+                    available. Report
+                    submitted in time. The doctors and attendants very co-operative and humble. Highly satisfied.</p>
+            </div>
+        </div>
+        <div class="card mb-3 pt-3" data-aos="zoom-in">
+            <div class="card-head d-flex">
+                <img src="img/person2.png" class="card-img-top" alt="...">
+                <div class="ms-3 pt-2">
+                    <h5 class="card-title">Balvir Bal</h5>
+                    <p class="card-star"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                            aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                            aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+                </div>
+            </div>
+            <div class="card-body">
+                <p class="card-text fw-semibold">Did a home collection blood test. Kanwaljit reached on time in the
+                    morning and very
+                    professional. As promised result was sent to your phone by 7pm. Affordable price compared to other
+                    laboratory.
+                    I will defintely use them again.</p>
+            </div>
+        </div>
+        <div class="card mb-3 pt-3" data-aos="zoom-in-left">
+            <div class="card-head d-flex">
+                <img src="img/person3.png" class="card-img-top" alt="...">
+                <div class="ms-3 pt-2">
+                    <h5 class="card-title">naresh rana</h5>
+                    <p class="card-star"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                            aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                            aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+                </div>
+            </div>
+            <div class="card-body">
+                <p class="card-text fw-semibold">Today I visit here for the blood test. As my opinion GSB is one of the
+                    best
+                    laboratory of
+                    Mohali. I would suggest all of my friends to visit here for any kind of help regarding health. I got
+                    a quick
+                    resolution from there. Which I was not expected earlier but I'm really impressed with the service of
+                    GSB as
+                    they providing to their patients. I would like to say thanks to Kanwaljit sir for such kind of
+                    service and
+                    polite behaviour.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container5 d-flex flex-column justify-content-center align-items-center my-3 my-md-4 text-center"
+        style="margin-top: 124px !important;" data-aos="fade-down">
+        <h1 class="fw-bold">Contact Us</h1>
+        <p class="fw-semibold">Visit our modern laboratory facility in Chandigarh for all your diagnostic needs</p>
+    </div>
+    <div id="contact" class="container13 container mb-5">
+        <div class="row">
+            <div class="col-lg-6" data-aos="fade-right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.810007066296!2d76.70640669678956!3d30.695621300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fee5fda4316db%3A0x80b60ea9038e1026!2sBlood%20Care%20Lab%20%E2%80%93%20Blood%20Test%20%26%20Home%20Collection%20in%20Mohali!5e0!3m2!1sen!2sin!4v1755175001721!5m2!1sen!2sin"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="col-lg-6 mt-5 mt-md-0 mt-lg-3 ps-lg-4" data-aos="fade-left">
+                <div class="d-flex">
+                    <img class="me-2" src="img/pin.png" width="30px" height="32px" alt="">
+                    <div>
+                        <h4 class="fw-bold">Full Client Address</h4>
+                        <p class="fs-5 fw-semibold">Blood Care Clinical Laboratory,<br>
+                            3006, LIG, near BSNL Office, SECTOR 70 <br>
+                            Sector 70, Sahibzada Ajit Singh Nagar <br>
+                            Punjab - 160070, India</p>
+                    </div>
+                </div>
+                <div class="d-flex mb-2">
+                    <img class="me-2" src="img/blue-call.png" width="28px" height="28px" alt="">
+                    <div>
+                        <h4 class="fw-bold">Phone Number</h4>
+                        <a href="tel:+91 1234567890" class="fw-semibold fs-5 text-decoration-none">+91 1234567890</a>
+                    </div>
+                </div>
+                <div class="d-flex mb-2">
+                    <img class="me-2" src="img/email.png" width="30px" height="32px" alt="">
+                    <div>
+                        <h4 class="fw-bold">Email</h4>
+                        <a class="fw-semibold fs-5 text-decoration-none"
+                            href="mailto:bloodcarelab@gmail.com">bloodcarelab@gmail.com</a>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <img class="me-2" src="img/clock.png" width="30px" height="32px" alt="">
+                    <div>
+                        <h4 class="fw-bold">Opening Hours</h4>
+                        <p class="fw-semibold fs-5">Monday - Sunday: 7:00 AM - 9:00 AM <br>
+                            Emergency Service: 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
