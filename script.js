@@ -54,5 +54,6 @@ document.querySelectorAll(".callBtn").forEach(button => {
 document.querySelectorAll(".messageBtn").forEach(button => {
     button.addEventListener("click", function () {
         window.open(`https://wa.me/${phoneNumber}`, "_blank");
+        // window.location.href = `https://wa.me/${phoneNumber}`;
     });
 });

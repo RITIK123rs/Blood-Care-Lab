@@ -722,9 +722,9 @@ nav .nav-item:hover::before {
 
 @media screen and (min-width:1166px){
   .messageBtn{
-  display: none;
+  display: block;
 }
 .callBtn{
-  display: block;
+  display: none;
 } 
 }
